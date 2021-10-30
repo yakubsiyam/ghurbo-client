@@ -18,7 +18,7 @@ code {
 
 .btn-home:hover {
   color: white;
-  background-color: #d84545 !important;
+  background-color: #e64615 !important;
 }
 
 .btn-color {
@@ -66,6 +66,20 @@ code {
 
 .bg-nav {
   background-color: #858585;
+}
+
+.box:hover {
+  box-shadow: 5px 5px 15px #949494 !important;
+  transition-duration: 0.2s;
+}
+
+.rounded-home {
+  border-radius: 12px;
+}
+
+.rounded-t {
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
 }
 
 /*.btn-main{
