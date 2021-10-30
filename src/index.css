@@ -31,14 +31,14 @@ code {
   color: white !important;
 }
 
-.btn-services {
-  /* border: 1px solid #000; */
-  color: #000;
+.btn-destination {
+  color: #f15e31;
+  border: 1px solid #f15e31;
+  transition-duration: 0.2s;
 }
-
-.btn-services:hover {
+.btn-destination:hover {
   background-color: #f15e31;
-  color: white !important;
+  color: white;
 }
 
 .text-color {

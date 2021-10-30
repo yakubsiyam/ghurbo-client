@@ -4,23 +4,25 @@
     "title": "Dubai Sightseeing",
     "description": "There is an endless list of famous places in Dubai and the plethora of things to do in Dubai. In fact, you will either need a month-long vacation or several shorter trips to explore the entire Dubai.",
     "img": "https://i.ibb.co/vmKHnNF/dubai.jpg",
-    "destination": "United Arab Emirates",
+    "location": "United Arab Emirates",
     "tourLength": "jan 22 - jan 27",
-    "duration": "6 days",
+    "duration": "6 Days",
     "cost": 75000,
-    "person": 2
+    "person": 2,
+    "meal": 40
   },
 
   {
     "id": 1,
     "title": "Bali Tour",
-    "description": "Enchanted with beautiful arrays of shades, spreading across the variant natural bounty, Bali is an island leisure vacation every traveller dreams! Escape time and the fast paced life to the island of perfect dreamy holidays! These dreamy islands are blessed with a heavenly climate that soothes the body completely. Shimmering beaches, turquoise waters and scenic landscapes make the islands a perfect reason to hunt for Bali tour packages!",
+    "description": "Enchanted with beautiful arrays of shades, spreading across the variant natural bounty, Bali is an island leisure vacation every traveller dreams! Escape time and the fast paced life to the island of perfect dreamy holiDays! These dreamy islands are blessed with a heavenly climate that soothes the body completely. Shimmering beaches, turquoise waters and scenic landscapes make the islands a perfect reason to hunt for Bali tour packages!",
     "img": "https://i.ibb.co/94kH4zP/bali.jpg",
-    "destination": "Indonesia",
+    "location": "Indonesia",
     "tourLength": "feb 2 - feb 10",
-    "duration": "9 days",
+    "duration": "9 Days",
     "cost": 93000,
-    "person": 3
+    "person": 3,
+    "meal": 65
   },
 
   {
@@ -28,23 +30,25 @@
     "title": "Iceland Northern Lights",
     "description": "Iceland, a Nordic island nation, is defined by its dramatic landscape with volcanoes, geysers, hot springs and lava fields. Massive glaciers are protected in Vatnajökull and Snæfellsjökull national parks. Most of the population lives in the capital, Reykjavik, which runs on geothermal power and is home to the National and Saga museums, tracing Iceland’s Viking history.",
     "img": "https://i.ibb.co/3W534Wm/iceland.jpg",
-    "destination": "Iceland",
+    "location": "Iceland",
     "tourLength": "jan 12 - jan 15",
-    "duration": "4 days",
+    "duration": "4 Days",
     "cost": 32000,
-    "person": 1
+    "person": 1,
+    "meal": 11
   },
 
   {
     "id": 3,
     "title": "Paris",
-    "description": "Synonym to love and paradise of life, France has been a dream destination for every corny soul. Clichéd for being the time-lapsed destination to experience life with enthusiasm, this is a destination that will inspire you the most. Experience the magical and enigmatic charm of France along with Nice, Monaco and Monte Carlo. The pride of France gets stronger along with Paris which is the city of dreams!",
+    "description": "Synonym to love and paradise of life, France has been a dream location for every corny soul. Clichéd for being the time-lapsed location to experience life with enthusiasm, this is a location that will inspire you the most. Experience the magical and enigmatic charm of France along with Nice, Monaco and Monte Carlo. The pride of France gets stronger along with Paris which is the city of dreams!",
     "img": "https://i.ibb.co/qmkbrqH/paris.jpg",
-    "destination": "France",
+    "location": "France",
     "tourLength": "jan 27 - feb 03",
-    "duration": "8 days",
+    "duration": "8 Days",
     "cost": 112000,
-    "person": 2
+    "person": 2,
+    "meal": 34
   },
 
   {
@@ -52,22 +56,24 @@
     "title": "Swiss Escape",
     "description": "Explore the culturally vibrant, efficiently run and attractively set city of Zurich. Visit the Central Switzerland's tallest mountain, Mt Titlis -known for the world's first revolving cable car and enjoy the classic experience of train ride up to Jungfraujoch in this Swiss Escape tour.",
     "img": "https://i.ibb.co/Jz0GgNZ/switzerland.jpg",
-    "destination": "Switzerland",
+    "location": "Switzerland",
     "tourLength": "mar 09 - mar 16",
-    "duration": "7 days",
+    "duration": "7 Days",
     "cost": 150000,
-    "person": 2
+    "person": 2,
+    "meal": 36
   },
 
   {
     "id": 5,
     "title": "Highlights of Germany",
     "description": "Germany is the perfect balance between history and modernity! Explore the country of mega cities, rich culture, unique flavours, hi-tech technology and a coherent history that has helped shape the nation. Discover Berlin, Munich, Frankfurt in one such amazing tour that delights and amazes you!",
-    "img": "https://i.ibb.co/PhtG1GM/germany.jpg",
-    "destination": "Germany",
+    "img": "https://i.ibb.co/3NnDp0g/germany.jpg",
+    "location": "Germany",
     "tourLength": "feb 21 - feb 25",
-    "duration": "5 days",
+    "duration": "5 Days",
     "cost": 55000,
-    "person": 1
+    "person": 1,
+    "meal": 13
   }
 ]

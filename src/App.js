@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Destination from "./components/Destination/Destination";
+import Destinations from "./components/Destinations/Destinations";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import AuthProvider from "./contexts/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import DestinationDetail from "./components/DestinationDetail/DestinationDetail";
 
 function App() {
   return (
@@ -32,9 +33,13 @@ function App() {
               <About></About>
             </Route>
 
-            <Route exact path="/destination">
-              <Destination></Destination>
+            <Route exact path="/destinations">
+              <Destinations></Destinations>
             </Route>
+
+            <PrivateRoute exact path="/destinations/:destinationId">
+              <DestinationDetail></DestinationDetail>
+            </PrivateRoute>
 
             <PrivateRoute exact path="/blog">
               <Blog></Blog>
