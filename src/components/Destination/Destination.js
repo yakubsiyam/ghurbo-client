@@ -5,7 +5,7 @@ const Destination = (props) => {
   const { _id, title, img, duration, cost, person, location, meal } =
     props.destination;
   return (
-    <div className="col-md-4">
+    <div className="col-lg-4 col-md-6">
       <div className="rounded-home box shadow">
         <div className="row justify-content-center align-items-center h-100">
           <div className="mb-3">

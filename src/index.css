@@ -18,7 +18,6 @@ code {
 
 .btn-home:hover {
   color: white;
-  background-color: #e64615 !important;
 }
 
 .btn-color {
@@ -52,16 +51,6 @@ code {
 
 .icon-color:hover {
   color: #f15e31 !important;
-}
-
-.error-btn {
-  background-color: #f15e31;
-  color: #fff !important;
-}
-
-.error-btn:hover {
-  color: white !important;
-  background-color: #d84545;
 }
 
 .bg-nav {

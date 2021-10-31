@@ -73,7 +73,7 @@ const DestinationDetail = () => {
         <form className="row g-3 bg-light shadow p-3 my-5 rounded-home">
           <h3 className="text-dark text-center">Please Fill Up This Form</h3>
           <div className="col-md-6">
-            <label for="name" className="form-label">
+            <label htmlFor="name" className="form-label">
               Name
             </label>
             <input
@@ -85,7 +85,7 @@ const DestinationDetail = () => {
             />
           </div>
           <div className="col-md-6">
-            <label for="email" className="form-label">
+            <label htmlFor="email" className="form-label">
               Email
             </label>
             <input
@@ -97,13 +97,13 @@ const DestinationDetail = () => {
             />
           </div>
           <div className="col-12">
-            <label for="address" className="form-label">
+            <label htmlFor="address" className="form-label">
               Address
             </label>
             <input type="text" className="form-control" id="address" required />
           </div>
           <div className="col-12">
-            <label for="phone" className="form-label">
+            <label htmlFor="phone" className="form-label">
               Phone
             </label>
             <input type="text" className="form-control" id="phone" required />
@@ -112,7 +112,7 @@ const DestinationDetail = () => {
             to={`/destinations`}
             className="btn btn-home w-50 mx-auto my-3 rounded-pill"
           >
-            Book Now
+            Book Your Destination
           </Link>
         </form>
       </div>
