@@ -48,6 +48,14 @@ const Header = () => {
                 </Link>
               </li>
 
+              {user?.email && (
+                <li className="nav-item my-auto">
+                  <Link className="nav-link" to="/mycart">
+                    My Destination
+                  </Link>
+                </li>
+              )}
+
               <li className="nav-item my-auto">
                 <span className="nav-link">
                   {user?.email && (
