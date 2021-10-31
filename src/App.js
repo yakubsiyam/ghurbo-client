@@ -13,6 +13,7 @@ import Login from "./components/Login/Login";
 import AuthProvider from "./contexts/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import DestinationDetail from "./components/DestinationDetail/DestinationDetail";
+import Mycart from "./components/Mycart/Mycart";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
             <Route exact path="/contact">
               <Contact></Contact>
             </Route>
+
+            <PrivateRoute exact path="/mycart">
+              <Mycart></Mycart>
+            </PrivateRoute>
 
             <Route exact path="/login">
               <Login></Login>

@@ -8,6 +8,7 @@ import route from "../../images/route.png";
 import tourGuide from "../../images/tour-guide.png";
 import map from "../../images/map.png";
 import { Link } from "react-router-dom";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   const [destinations, setDestinations] = useState([]);
@@ -195,6 +196,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* blog */}
+      <Blog></Blog>
     </div>
   );
 };

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import { Link } from "react-router-dom";
+import axios from "axios";
+import React, { useEffect, useRef, useState } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 
 const DestinationDetail = () => {
@@ -26,6 +26,41 @@ const DestinationDetail = () => {
       .then((res) => res.json())
       .then((data) => setSingleDestination(data));
   }, []);
+
+  const refAddress = useRef();
+  const refPhone = useRef();
+
+  const history = useHistory();
+
+  const handleReservation = (e) => {
+    const userName = user.displayName;
+    const email = user.email;
+    const address = refAddress.current.value;
+    const phone = refPhone.current.value;
+    const status = "pending";
+
+    const userInfo = {
+      userName,
+      email,
+      address,
+      phone,
+      title,
+      location,
+      cost,
+      status,
+    };
+
+    axios
+      .post("https://stormy-tor-24611.herokuapp.com/usersinfo", userInfo)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("User Info Added Successfully");
+          history.push("/mycart");
+        }
+      });
+    e.preventDefault();
+  };
+
   return (
     <div className="container mt-5">
       <div className="mx-lg-5 px-lg-5">
@@ -70,7 +105,10 @@ const DestinationDetail = () => {
           <i className="fas fa-dollar-sign"></i> {cost}
         </span>
 
-        <form className="row g-3 bg-light shadow p-3 my-5 rounded-home">
+        <form
+          onSubmit={handleReservation}
+          className="row g-3 bg-light shadow p-3 my-5 rounded-home"
+        >
           <h3 className="text-dark text-center">Please Fill Up This Form</h3>
           <div className="col-md-6">
             <label htmlFor="name" className="form-label">
@@ -100,20 +138,32 @@ const DestinationDetail = () => {
             <label htmlFor="address" className="form-label">
               Address
             </label>
-            <input type="text" className="form-control" id="address" required />
+            <input
+              type="text"
+              ref={refAddress}
+              className="form-control"
+              id="address"
+              required
+            />
           </div>
           <div className="col-12">
             <label htmlFor="phone" className="form-label">
               Phone
             </label>
-            <input type="text" className="form-control" id="phone" required />
+            <input
+              type="text"
+              ref={refPhone}
+              className="form-control"
+              id="phone"
+              required
+            />
           </div>
-          <Link
-            to={`/destinations`}
+          <button
+            type="submit"
             className="btn btn-home w-50 mx-auto my-3 rounded-pill"
           >
             Book Your Destination
-          </Link>
+          </button>
         </form>
       </div>
     </div>

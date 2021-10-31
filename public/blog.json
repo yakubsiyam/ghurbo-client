@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Exploring Nahargarh Fort Jaipur",
+    "img": "https://i.ibb.co/8zLwBnw/blog1.jpg",
+    "description": "Rajasthan is famous as the royal state of India that attracts tourists with its rich culture, beautiful palaces, and majestic forts. Nahargarh Fort is one such glorious fort in the state, located in the Aravalli mountain ranges in Jaipur. Once known as Sudarshangarh, the Nahargarh Fort was built by Maharaj Sawai Jai Singh II in 1734. With its glorious past and imposing architecture, Nahargarh Fort attracts tourists from all over the world. It is also known as one of the largest forts in India, reflecting the charm of Rajasthan and its legacy. One of the best places to visit in Jaipur, Nahargarh Fort, is associated with many important historical events. Here is everything you should know about Nahargarh Fort in Jaipur.",
+    "author": "Raj Kundu",
+    "date": "September 1, 2021"
+  },
+
+  {
+    "id": 2,
+    "title": "5 National Parks You Must Visit In Himachal Pradesh",
+    "img": "https://i.ibb.co/yyBtdYs/blog2.jpg",
+    "description": "Himachal Pradesh is a picture-perfect state with picturesque hill stations, charming towns, snow-covered mountains, lush valleys, rich flora and fauna, untainted environment, and many trekking paths. It’s a paradise for nature lovers, explorers, and travellers. The gorgeous national parks of India may be found in this lovely hill state. The snow-capped mountains, heavily forested woods, fascinating natural views, and endangered animal species of these amazing Himachal Pradesh national parks make your visit unforgettable.",
+    "author": "Jason Bravo",
+    "date": "September 22, 2021"
+  },
+
+  {
+    "id": 3,
+    "title": "7 Must-Visit Places in Sri Lanka",
+    "img": "https://i.ibb.co/bJb6X4s/blog3.jpg",
+    "description": "The myriad charms of Sri Lanka have remained undiscovered for many years but that’s changing now. if Sri Lanka is a place you still haven’t been to yet, then you should book yourself a Sri Lanka tour package right away and set out on this wonderful journey to discover its history, culture, and natural beauty that are undeniably alluring.  With the enticing tea plantations, magical bright-eyed grins from the friendly natives, and an immensely varied environment, it is easy to fall in love with this country.",
+    "author": "Kumar Sangakara",
+    "date": "August 15, 2021"
+  },
+
+  {
+    "id": 4,
+    "title": "Top 10 Markets in Hong Kong That You Must Visit",
+    "img": "https://i.ibb.co/GRttTwz/blog4.jpg",
+    "description": "A burst of culture and colour, the vibe filled with happiness galore – Hong Kong is one of the most loved places in the People’s Republic of China. It is known as the Special Administrative Region and houses nearly 18 districts of the country. Renowned for Disneyland, Hong Kong is a place that you should visit at least once in your lifetime. What’s more interesting about Hong Kong is that it has the most number of skyscrapers in the world. The city is home to the second-largest sitting statue of Lord Buddha, the Tian Tan Buddha and preserves the ancient culture and tradition through various festive celebrations and stunning architecture.",
+    "author": "Sheung Wan",
+    "date": "August 26, 2021"
+  },
+
+  {
+    "id": 5,
+    "title": "Emirates Palace Abu Dhabi: Location, Cost & Architecture",
+    "img": "https://i.ibb.co/wsMcfjd/blog5.jpg",
+    "description": "Boasting stunning architecture and Arabian Style decor, the Emirates Palace Abu Dhabi is truly a sight to behold. The luxurious hotel is hailed as one of the best 5-star hotels in the world. The palace offers a magical experience of luxurious relaxation and local culture to its visitors. Located in the heart of Abu Dhabi, the Emirates Palace is close to some of the major tourist attractions and significant city business centres. The palace is built at the cost of a whopping $3bn; the hotel is undoubtedly the most expensive hotel ever built in the world. The palace is frequently visited by renowned celebrities, diplomats, and important persons of the UAE.",
+    "author": "Mansour bin Zayed",
+    "date": "October 05, 2021"
+  },
+
+  {
+    "id": 6,
+    "title": "A Complete Travel Guide to the Seven Sister States of India",
+    "img": "https://i.ibb.co/mT4wcRF/blog6.jpg",
+    "description": "The mesmerising scenic beauty, the serene landscape, and quirky markets make northeast India a great escapade. While all the seven states have a peculiar resemblance, each one is striking in its own way. Moreover, the cultural diversity in these regions is truly impeccable. The interdependence of the seven contiguous states – Arunachal Pradesh, Assam, Meghalaya, Manipur, Mizoram, Nagaland, and Tripura gave origin to the moniker. A famous journalist from Tripura – Jyoti Prasad Saikia, coined the term ‘7 sisters of India’ during a radio talk show in 1972. She also wrote a book called ‘The Land of Seven Sisters’ later. This is how the sobriquet caught on originally.",
+    "author": "Rohit Sharma",
+    "date": "October 22, 2021"
+  }
+]
