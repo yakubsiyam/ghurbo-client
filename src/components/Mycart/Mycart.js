@@ -1,12 +1,18 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 
-const Mycart = () => {
+const MyCart = () => {
   const [carts, setCarts] = useState([]);
+  const { user } = useAuth();
+
+  const currentUserEmail = user.email;
 
   useEffect(() => {
-    fetch(`https://stormy-tor-24611.herokuapp.com/usersinfo`)
+    fetch(
+      `https://stormy-tor-24611.herokuapp.com/usersinfo?email=${currentUserEmail}`
+    )
       .then((res) => res.json())
       .then((data) => setCarts(data));
   }, []);
@@ -66,4 +72,4 @@ const Mycart = () => {
   );
 };
 
-export default Mycart;
+export default MyCart;

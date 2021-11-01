@@ -92,12 +92,20 @@ const Home = () => {
       <section>
         <h1 className="text-color text-center pb-3">Top Destination</h1>
         <div className="row g-4 mb-5">
-          {destinations.map((destination) => (
-            <HomeDestination
-              key={destination.id}
-              destination={destination}
-            ></HomeDestination>
-          ))}
+          {destinations.length === 0 ? (
+            <div className="d-flex justify-content-center">
+              <div className="spinner-border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          ) : (
+            destinations.map((destination) => (
+              <HomeDestination
+                key={destination.id}
+                destination={destination}
+              ></HomeDestination>
+            ))
+          )}
         </div>
       </section>
 

@@ -13,7 +13,9 @@ import Login from "./components/Login/Login";
 import AuthProvider from "./contexts/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import DestinationDetail from "./components/DestinationDetail/DestinationDetail";
-import Mycart from "./components/Mycart/Mycart";
+import MyCart from "./components/MyCart/MyCart";
+import ManageOrders from "./components/ManageOrders/ManageOrders";
+import AddNewDestination from "./components/AddNewDestination/AddNewDestination";
 
 function App() {
   return (
@@ -51,7 +53,15 @@ function App() {
             </Route>
 
             <PrivateRoute exact path="/mycart">
-              <Mycart></Mycart>
+              <MyCart></MyCart>
+            </PrivateRoute>
+
+            <PrivateRoute exact path="/manageorders">
+              <ManageOrders></ManageOrders>
+            </PrivateRoute>
+
+            <PrivateRoute exact path="/addnewdestination">
+              <AddNewDestination></AddNewDestination>
             </PrivateRoute>
 
             <Route exact path="/login">
