@@ -129,6 +129,7 @@ const AddNewDestination = () => {
             type="number"
             className="form-control"
             id="duration"
+            placeholder="4 Days"
             required
             ref={refDuration}
           />
