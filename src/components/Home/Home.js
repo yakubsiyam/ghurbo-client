@@ -101,7 +101,7 @@ const Home = () => {
           ) : (
             destinations.map((destination) => (
               <HomeDestination
-                key={destination.id}
+                key={destination._id}
                 destination={destination}
               ></HomeDestination>
             ))

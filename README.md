@@ -4,7 +4,7 @@ Live Site Link: https://ghurbo-6da66.web.app/
 
 ## About This Project
 
-This project where you can find world class tourism destination. You also get various Dubai Sightseeing, Bali Tour, Iceland Northern Lights, Paris, Swiss Escape etc.
+This project where you can find tourism destination. You also get various Dubai Sightseeing, Bali Tour, Iceland Northern Lights, Paris, Swiss Escape etc.
 
 ## Some Features Of This Project
 
@@ -28,6 +28,10 @@ Find Blogs
 
 you can find add cart
 
+### `Admin Panel`
+
+you can set new destination or delete items or approved.
+
 ## Features Of This Project
 
 ### `Private Routing`
@@ -38,7 +42,7 @@ This project we use Private Routing.
 
 This project we use React Router
 
-### `MongoDB`
+### `Database`
 
 Here We uses MongoDB
 
@@ -56,6 +60,14 @@ Deploying Firebase.
 
 we use React
 
+### `MongoDB`
+
+we use MongoDB
+
+### `NodeJS`
+
+we use NodeJS
+
 ### `Bootstrap`
 
 we uses Bootstrap
@@ -67,11 +79,3 @@ we use HTML
 ### `CSS`
 
 we use some CSS
-
-### `MongoDB`
-
-we use some CSS
-
-### `NodeJS`
-
-we use NodeJS

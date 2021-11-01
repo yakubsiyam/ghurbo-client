@@ -34,7 +34,7 @@ const Destinations = () => {
         <div className="row g-4 mb-5">
           {destinations.map((destination) => (
             <Destination
-              key={destination.id}
+              key={destination._id}
               destination={destination}
             ></Destination>
           ))}
