@@ -35,11 +35,11 @@ const MyCart = () => {
 
   return (
     <div className="container">
-      <h1 className="text-color text-center">Reserved Destination</h1>
+      <h1 className="text-color text-center">My Destination</h1>
       <section>
         <div className="row g-4 my-3">
           {carts.map((cart) => (
-            <div className="col-lg-4 col-md-6 text-start">
+            <div className="col-lg-4 col-md-6 text-start" key={cart._id}>
               <div className="shadow rounded-home h-100 card p-4">
                 <h3>{cart.title}</h3>
                 <p>Total Cost: {cart.cost}</p>

@@ -35,8 +35,8 @@ const DestinationDetail = () => {
   const handleReservation = (e) => {
     const userName = user.displayName;
     const email = user.email;
-    const address = refAddress.current.value;
-    const phone = refPhone.current.value;
+    const address = refAddress.current.defaultValue;
+    const phone = refPhone.current.defaultValue;
     const status = "pending";
 
     const userInfo = {
@@ -118,7 +118,7 @@ const DestinationDetail = () => {
               type="text"
               className="form-control"
               id="name"
-              value={user.displayName}
+              defaultValue={user.displayName}
               required
             />
           </div>
@@ -130,7 +130,7 @@ const DestinationDetail = () => {
               type="email"
               className="form-control"
               id="email"
-              value={user.email}
+              defaultValue={user.email}
               required
             />
           </div>
